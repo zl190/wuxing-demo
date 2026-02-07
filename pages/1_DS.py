@@ -262,10 +262,10 @@ def plot_graph():
     return fig
 
 # ============ Streamlit App ============
-st.set_page_config(page_title="Wuxing Compute | DS Case Study", layout="wide")
+st.set_page_config(page_title="计算人文", layout="wide")
 
-st.title("五行计算")
-st.caption("一个 DS 案例：如何把 52 万种时间周期位置压缩成 5 个数 · [🎯 直接体验版](/)")
+st.title("计算人文")
+st.caption("计算人文视角：如何把 52 万种时间周期位置压缩成 5 个数 · [🎯 快速体验版](/)")
 st.markdown("*换表示（换基/重编码） · 引入语义 · 图结构先验 · 压缩*")
 
 # Conceptual intro (collapsible)
@@ -773,19 +773,19 @@ if use_llm and openai_api_key:
         # === Aha Moment: DS + ADS convergence ===
         st.markdown("---")
         st.markdown("""
-        > **殊途同归：这就是 DS 思维**
+        > **殊途同归：这就是计算人文**
         >
-        > 你刚刚经历了一个完整的 DS 案例：
+        > 你刚刚经历了一个完整的形式化建模案例：
         >
-        > 1. **表示压缩** — 把 2 亿种可能压成 5 个数
+        > 1. **表示压缩** — 把 52 万种时间位置压成 5 个数
         > 2. **结构先验** — 引入 2500 年共识的图结构
-        > 3. **消息传递** — 用 GNN 思路模拟能量流动
-        > 4. **双语解释** — DS（矩阵公式）+ ADS（人话叙事）
+        > 3. **消息传递** — 用图的视角模拟能量流动
+        > 4. **双语解释** — 公式语言 + 人话叙事
         >
         > 五行只是载体。内核是：
-        > **如何用结构化思维，把任何复杂系统变成可计算、可解释的模型？**
+        > **用现代框架解构传统系统，看看里面有没有可复用的结构。**
         >
-        > 这不是玄学，这是 *数据科学的日常*。
+        > 这不是玄学，这是 *计算人文的日常*。
         """)
     else:
         st.info("👆 点击生成，获取 AI 深度解读")
@@ -894,5 +894,4 @@ with tab_formulas:
 
 # Footer
 st.markdown("---")
-st.caption("基于 GNN 消息传递框架的五行形式化模型 | DS + ADS 双视图")
-st.caption("[🧠 脑洞](https://zl190.github.io/blog/zh/wuxing-gnn) · 用现代框架解构传统系统")
+st.caption("[🎯 快速体验版](/) · [🧠 原理](https://zl190.github.io/blog/zh/wuxing-gnn) · 用现代框架解构传统系统")
