@@ -370,11 +370,11 @@ with tab_experience:
 
     with col1:
         st.subheader("五行雷达图")
-        st.plotly_chart(plot_radar(s), use_container_width=True)
+        st.plotly_chart(plot_radar(s), use_container_width=True, key="radar_exp")
 
     with col2:
         st.subheader("五行关系图")
-        st.plotly_chart(plot_graph(), use_container_width=True)
+        st.plotly_chart(plot_graph(), use_container_width=True, key="graph_exp")
 
     # Narrative explanation
     st.subheader("📖 解读")
@@ -738,9 +738,9 @@ with tab_theory:
     st.markdown("---")
     viz_col1, viz_col2 = st.columns([1, 1])
     with viz_col1:
-        st.plotly_chart(plot_radar(s), use_container_width=True)
+        st.plotly_chart(plot_radar(s), use_container_width=True, key="radar_theory")
     with viz_col2:
-        st.plotly_chart(plot_graph(), use_container_width=True)
+        st.plotly_chart(plot_graph(), use_container_width=True, key="graph_theory")
 
     st.markdown(f"**日主 {day_stem}({day_element_name}) {day_status}** · {strongest} 最旺 · {weakest} 最弱")
 
