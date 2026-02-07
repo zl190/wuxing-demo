@@ -440,7 +440,7 @@ with tab_theory:
     st.markdown("*换表示（换基/重编码） · 引入语义 · 图结构先验 · 压缩*")
 
     # Conceptual intro
-    with st.expander("💡 这个项目在探索什么？", expanded=True):
+    with st.expander("💡 这个项目在探索什么？", expanded=False):
         st.markdown("""
         **核心问题：** 如何把 52 万种时间周期位置压缩成 5 个数？
 
@@ -868,4 +868,4 @@ with tab_theory:
 
 # ============ Footer ============
 st.markdown("---")
-st.caption("[💡 灵光](https://zl190.github.io/blog/zh/wuxing-gnn) · 用现代框架解构传统系统")
+st.caption("[🧠 脑洞](https://zl190.github.io/blog/zh/wuxing-gnn) · 用现代框架解构传统系统")
