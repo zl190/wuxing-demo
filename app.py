@@ -266,7 +266,7 @@ st.set_page_config(page_title="计算人文", layout="wide")
 
 # Query param for tab selection
 query_tab = st.query_params.get("tab", "体验")
-default_tab_idx = 1 if query_tab == "原理" else 0
+default_tab_idx = 1 if query_tab == "lab" else 0
 
 st.title("计算人文")
 st.markdown("### 五行")
@@ -361,7 +361,7 @@ else:
     recommended_intervene = gen_source
 
 # ============ Main Content: Tabs ============
-tab_experience, tab_theory = st.tabs(["🎯 体验", "📐 原理"])
+tab_experience, tab_theory = st.tabs(["🎯 体验", "🧪 Lab"])
 
 # ============ TAB 1: 体验 (Experience) ============
 with tab_experience:
@@ -868,4 +868,4 @@ with tab_theory:
 
 # ============ Footer ============
 st.markdown("---")
-st.caption("[📖 博客](https://zl190.github.io/blog/zh/wuxing-gnn) · 用现代框架解构传统系统")
+st.caption("[💡 灵光](https://zl190.github.io/blog/zh/wuxing-gnn) · 用现代框架解构传统系统")
