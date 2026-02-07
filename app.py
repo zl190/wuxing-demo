@@ -457,7 +457,7 @@ with tab_theory:
 
         五行是**载体**，"换表示 + 压缩"是**内核**。
 
-        📖 [完整解释](https://zl190.github.io/blog/zh/wuxing-gnn)
+        📖 [完整解释](https://blog.ylab3.com/zh/wuxing-gnn)
         """)
 
     # Compression Animation
@@ -870,4 +870,4 @@ with tab_theory:
 
 # ============ Footer ============
 st.markdown("---")
-st.caption("[🧠 脑洞](https://zl190.github.io/blog/zh/wuxing-gnn) · 用现代框架解构传统系统")
+st.caption("[🧠 脑洞](https://blog.ylab3.com/zh/wuxing-gnn) · 用现代框架解构传统系统")

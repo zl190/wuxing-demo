@@ -16,7 +16,7 @@
 - **压缩**：22 符号 → 5 五行，权重聚合，图约束
 - **消息传递**：相生加分，相克减分，模拟系统演化
 
-详细解释见 [📖 博客文章](https://zl190.github.io/blog/zh/wuxing-gnn)
+详细解释见 [📖 博客文章](https://blog.ylab3.com/zh/wuxing-gnn)
 
 ## Demo
 
