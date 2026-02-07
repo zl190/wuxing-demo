@@ -547,4 +547,4 @@ with tab3:
 # Footer
 st.markdown("---")
 st.caption("基于 GNN 消息传递框架的五行形式化模型 | DS + ADS 双视图")
-st.caption("[🧠 脑洞](https://zl190.github.io/blog/wuxing-gnn) · [📊 DS 深入版](/ds) · 用现代框架解构传统系统")
+st.caption("[🧠 脑洞](https://zl190.github.io/blog/zh/wuxing-gnn) · [📊 DS 深入版](/DS) · 用现代框架解构传统系统")

@@ -22,9 +22,9 @@
 
 在线体验：[wuxing.ylabs.dev](https://wuxing.ylabs.dev)
 
-两个版本：
+两个版本（Multipage App）：
 - `/` — 用户优先版，快速体验
-- `/ds` — DS Portfolio 版，展示建模思路
+- `/DS` — DS Portfolio 版，展示建模思路
 
 ## 本地运行
 

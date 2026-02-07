@@ -286,7 +286,7 @@ with st.expander("💡 这个项目在探索什么？"):
 
     五行是**载体**，"换表示 + 压缩"是**内核**。
 
-    📖 [完整解释](https://zl190.github.io/blog/wuxing-gnn)
+    📖 [完整解释](https://zl190.github.io/blog/zh/wuxing-gnn)
     """)
 
 # Sidebar: Input
@@ -895,4 +895,4 @@ with tab_formulas:
 # Footer
 st.markdown("---")
 st.caption("基于 GNN 消息传递框架的五行形式化模型 | DS + ADS 双视图")
-st.caption("[🧠 脑洞](https://zl190.github.io/blog/wuxing-gnn) · 用现代框架解构传统系统")
+st.caption("[🧠 脑洞](https://zl190.github.io/blog/zh/wuxing-gnn) · 用现代框架解构传统系统")
