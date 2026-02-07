@@ -868,4 +868,4 @@ with tab_theory:
 
 # ============ Footer ============
 st.markdown("---")
-st.caption("[🧠 原理](https://zl190.github.io/blog/zh/wuxing-gnn) · 用现代框架解构传统系统")
+st.caption("[📖 博客](https://zl190.github.io/blog/zh/wuxing-gnn) · 用现代框架解构传统系统")
