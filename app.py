@@ -689,8 +689,8 @@ with tab_theory:
             <div class="big-text" style="font-size:24px;">s = X · w</div>
             <div class="dim-tag">5×4 · 4×1 = 5×1</div>
             <div class="explanation" style="margin-top:8px;"><span class="highlight">52万 → 5</span> 压缩</div>
-            <button class="btn-replay" onclick="replay()">↻ 重播</button>
         `);
+        scheduleLoop();
     }}
 
     function replay() {{
@@ -698,7 +698,24 @@ with tab_theory:
         runStage0();
     }}
 
-    setTimeout(runStage0, 500);
+    // Loop: restart after stage 3 finishes
+    function scheduleLoop() {{
+        setTimeout(() => {{
+            if (isVisible) replay();
+        }}, 3000);  // 3s pause before loop
+    }}
+
+    // Track visibility
+    let isVisible = false;
+    const observer = new IntersectionObserver((entries) => {{
+        entries.forEach(entry => {{
+            isVisible = entry.isIntersecting;
+            if (isVisible && stage === 0 && animFrame === 0) {{
+                setTimeout(runStage0, 300);
+            }}
+        }});
+    }}, {{ threshold: 0.3 }});
+    observer.observe(canvas);
 </script>
 """
 
