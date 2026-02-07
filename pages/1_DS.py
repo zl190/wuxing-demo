@@ -265,7 +265,8 @@ def plot_graph():
 st.set_page_config(page_title="计算人文", layout="wide")
 
 st.title("计算人文")
-st.caption("计算人文视角：如何把 52 万种时间周期位置压缩成 5 个数 · [🎯 快速体验版](/)")
+st.markdown("### 五行")
+st.caption("如何把 52 万种时间周期位置压缩成 5 个数 · [🎯 快速体验版](/)")
 st.markdown("*换表示（换基/重编码） · 引入语义 · 图结构先验 · 压缩*")
 
 # Conceptual intro (collapsible)

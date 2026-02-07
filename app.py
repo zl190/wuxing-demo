@@ -203,6 +203,7 @@ def plot_graph():
 st.set_page_config(page_title="计算人文", layout="wide")
 
 st.title("计算人文")
+st.markdown("### 五行")
 st.caption("输入生辰，看五行分布，生成 AI 解读")
 
 # Sidebar: Input
